@@ -1,0 +1,98 @@
+
+body{
+    margin: 1% 15%;
+    background-image: url(../img/background.jpg);
+   /* background-repeat: no-repeat;*/
+}
+
+div{
+    background-color: #778899;
+    padding:5px;
+}
+
+h1{
+    font-size: 45px;
+    font-family: Georgia, Verdana, Arial;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-align: center;  
+    word-spacing: 15px;
+    text-shadow: 2px 2px #87CEEB;
+    }
+
+h3{
+   width: .7em;
+   width: 1ch;
+   text-align: center;
+   font: lighter 16px Arial;
+   color: #87CEEB;
+   word-wrap: break-word;
+   position: fixed; 
+   margin: 0px;
+   
+}
+
+h2{
+    font: bold 18px Comic Sans MS;
+    margin-left: 14%;
+
+}
+
+.contacts{
+    width: 99%;
+    height: 160px;
+    min-width: 600px;
+}
+
+div img{
+    height:90%;
+    float: right;
+    border: 5px double #87CEEB;
+   
+}
+
+div a{
+    text-decoration: none;
+}
+
+a:hover{
+    font: 25px "Courier New";
+    color:red;
+}
+
+table{
+    margin: 20px 10px;
+    padding: 2px;
+    border: 1px solid black;
+    font: 16px Impact;
+}
+
+div.knowledge p{
+    font: 18px Impact;
+    margin: 10px;
+    text-decoration: underline;
+}
+
+div.knowledge ul,li {
+    font: 16px Impact;
+    margin: 5px 10px;
+    padding: 3px;
+    word-spacing: 2px;
+}
+
+div.knowledge li{
+      list-style-image:  url(../img/marker.png);
+}
+
+li:hover{
+    background-color: #87CEEB;
+}
+
+form {
+    font: bold 16px "Courier New";
+}
+
+form fieldset legend{
+    font: bold 18px "Courier New";
+}
